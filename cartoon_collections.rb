@@ -10,11 +10,8 @@ def summon_captain_planet(array)
 
 def long_planeteer_calls(array_of_calls)
   if array_of_calls.any? do |item| item.size == 4 
- puts true 
- end
-    puts false
-end
-end
+  
+ 
 
 
 def find_the_cheese# code an argument here
