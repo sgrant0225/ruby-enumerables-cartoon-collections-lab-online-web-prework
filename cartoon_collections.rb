@@ -14,9 +14,8 @@ end
 
 
 
-def find_the_cheese(cheese_types)
+def find_the_cheese(cheese)
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
-  cheese_types.any? {|item| item.include? "cheese" }
-  return nil
+  
 end
